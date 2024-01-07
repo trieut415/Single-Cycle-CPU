@@ -1,3 +1,5 @@
+In this project, we created a single cycle CPU in which we added several commands in MIPS to increase the functionality of the single cycle CPU.
+
 1. Add instruction SLT. Hint: you only need to modify the ALU and ALU control logic.
 In our addition of SLT, we just added an additional function in ALU Control under our R-type
 commands, and gave it a new function number to map to. Then, after we modified that, we
